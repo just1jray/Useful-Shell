@@ -2,6 +2,9 @@
 #
 # This script disables, deletes, and/or archives users on the local system.
 #
+# To reenable a user use the following command:
+#	$ chage -E -1 ${USERNAME}
+#
 
 ARCHIVE_DIR='/archive'
 
